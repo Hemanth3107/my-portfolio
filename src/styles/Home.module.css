@@ -1,0 +1,19 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.background {
+    background-image: url('/background.jpg'); /* Image should be inside the public folder */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
